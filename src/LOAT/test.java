@@ -32,8 +32,7 @@ public class test {
                 temp = rd.readLine();
             }
             rd.close();
-            Utils.WriteFile("MarketOptions",result.toString());
-
+//            Utils.writeContents("MarketOptions", result.toString());
             urlConn.disconnect();
 
         }
