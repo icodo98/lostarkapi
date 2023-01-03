@@ -19,4 +19,10 @@ public class JUnitTest {
         JSONObject jo = r.requestItem("GRADE", 0, "ee", 2, "ee", "ee", 0, "ASC");
     }
 
+    @Test
+    public void MarketTest() {
+        Repository r = new Repository();
+        r.MARKET(null, "https://developer-lostark.game.onstove.com/markets/items");
+    }
+
 }
